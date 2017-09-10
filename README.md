@@ -16,7 +16,7 @@ The best way to understand how the HP-35 works is to read the user manual and ex
 
 ### Rydberg test
 
-Your calculator should be able to compute the Rydberg constant from a number fundamental physical constants. 
+Your calculator should be able to compute the Rydberg constant from a number fundamental physical constants. Please refer to [Rydberg constant](https://github.com/remarcmij/calculator-project-class8/blob/master/Rydberg%20constant.md) for full details. 
 
 ### HP-35 Instruction Manual
 
