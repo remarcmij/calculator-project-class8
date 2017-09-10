@@ -18,9 +18,14 @@ The best way to understand how the HP-35 works is to read the user manual and ex
 
 You'll find some hints on how to elegantly handle the RPN stack in your application state [here](https://github.com/remarcmij/calculator-project-class8/blob/master/RPN%20stack.md).
 
+### Standardized execute
+
+In order to enable cross-project unit tests and programmability we need the various project to standardize on the way the calculator functions can be invoked.
+This is documented [here](https://github.com/remarcmij/calculator-project-class8/blob/master/Standarized%20execute.md).
+
 ### Rydberg test
 
-Your calculator should be able to compute the Rydberg constant from a number fundamental physical constants. Please refer to [Rydberg constant](https://github.com/remarcmij/calculator-project-class8/blob/master/Rydberg%20constant.md) for full details. 
+Your calculator should be able to compute the Rydberg constant from a number fundamental physical constants. Please refer to [Rydberg constant](https://github.com/remarcmij/calculator-project-class8/blob/master/Rydberg%20constant.md) for full details.
 
 ### HP-35 Instruction Manual
 

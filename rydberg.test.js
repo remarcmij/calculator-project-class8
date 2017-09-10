@@ -1,5 +1,6 @@
 import { expect } from 'chai'
 
+// adapt the paths with wherever your equivalent files are located
 import * as C from './keyCodes'
 import execute from './controlUnit'
 import initialState from '../store/init'
