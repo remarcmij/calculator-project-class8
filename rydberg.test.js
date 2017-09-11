@@ -37,6 +37,6 @@ describe('processor', () => {
     const expectedRydbergConstant = 1.0973781e+7
     const finalState = keyCodes.reduce(execute, initialState())
     const [computedRydbergConstant] = finalState.stack
-    expect(Math.abs(computedRydbergConstant - expectedRydbergConstant) < '1.0').to.be.true
+    expect(Math.abs(computedRydbergConstant - expectedRydbergConstant) < 1.0).to.be.true
   })
 })
