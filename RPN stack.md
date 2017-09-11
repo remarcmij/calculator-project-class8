@@ -1,9 +1,9 @@
 # Stack manipulations with ES6 destructuring
 
 Although the HP calculator documentation often makes reference to a 'stack',
-in our calculator code it is convenient to represent the 'stack' as an fixed length array
+in our calculator code it is convenient to represent the 'stack' as a fixed length array
 of four numbers. We don't use `push()` on this
-array but instead use ES6 structuring to decompose the 'stack' into individual `x`, `y`,
+array but instead use ES6 destructuring to decompose the 'stack' into individual `x`, `y`,
 `z` and `t` values, and reconstruct a new stack from these values, using
 transformations as required. This approach maps closely to our mental model of the RPN calculator stack. The code below illustrates the concept.
 

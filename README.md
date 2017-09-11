@@ -1,4 +1,4 @@
-# HYF-35 – HP-35 Emulator Project
+# HP-35 Emulator Project
 
 ![HP-35 Scientific Calculator](http://hpmemoryproject.org/pict/wall_b/hp35.jpg)
 
@@ -6,7 +6,7 @@ The HP-35 was the first hand-held scientific calculator. Read all about it on [W
 
 ## Project Assignment
 
-The goal of this project is to reverse engineer the functionality of the HP-35 calculator as a React application.
+The goal of this project is to reverse engineer the functionality of the HP 35 calculator as a React application.
 
 Optionally, the base HP-35 functionality may be enhanced with (portions of) the functionality of the later and more advanced, programmable HP-25 calculator, or even the capabilities of current HP graphing calculators.
 
@@ -20,12 +20,12 @@ You'll find some hints on how to elegantly handle the RPN stack in your applicat
 
 ### Standardized execute
 
-In order to enable cross-project unit tests and programmability we need the various project to standardize on the way the calculator functions can be invoked.
+In order to enable cross-project unit tests and programmability we need the various projects to standardize on the way the calculator functions can be invoked.
 This is documented [here](https://github.com/remarcmij/calculator-project-class8/blob/master/Standarized%20execute.md).
 
 ### Rydberg test
 
-Your calculator should be able to compute the Rydberg constant from a number fundamental physical constants. Please refer to [Rydberg constant](https://github.com/remarcmij/calculator-project-class8/blob/master/Rydberg%20constant.md) for full details.
+Your calculator should be able to compute the Rydberg constant from a number of fundamental physical constants. Please refer to [_Rydberg constant_](https://github.com/remarcmij/calculator-project-class8/blob/master/Rydberg%20constant.md) for full details.
 
 ### HP-35 Instruction Manual
 

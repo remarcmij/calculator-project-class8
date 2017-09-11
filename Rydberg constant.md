@@ -36,4 +36,4 @@ x<sup>y</sup>
 ×  
 ÷  
 
-Result: 1.0973781e+7  
+Expected result: 1.0973781e+7  

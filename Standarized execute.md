@@ -1,6 +1,6 @@
 # Standarized execute()
 
-In order to enable cross-project unit tests and programmability we need the various project to standardize on the way the calculator functions can be invoked. This document proposes such a standard.
+In order to enable cross-project unit tests and programmability we need the various projects to standardize on the way the calculator functions can be invoked. This document proposes such a standard.
 
 ## Stack representation
 
@@ -13,9 +13,9 @@ The standard four-register RPN stack should be represented by a property on your
 }
 ```
 
-The mapping of array elements to the `x`, `y`, `z` and `t` values should be standardised, such that `x` maps to `stack[0]`, `y` to `stack[1]` etc.
+The mapping of array elements to the `x`, `y`, `z` and `t` values should be standardized, such that `x` maps to `stack[0]`, `y` to `stack[1]` etc.
 
-This allows us to destructure and reconstruct the stack as outlined in [RPN stack](https://github.com/remarcmij/calculator-project-class8/blob/master/RPN%20stack.md) document.
+This allows us to destructure and reconstruct the stack as outlined in [_RPN stack_](https://github.com/remarcmij/calculator-project-class8/blob/master/RPN%20stack.md) document.
 
 ## execute() function
 
@@ -32,10 +32,10 @@ const keyCodes = [ ... ] // define a series of keystrokes here
 const finalState = keyCodes.reduce(execute, initialState)
 ```
 
-See also the [Rydberg constant](https://github.com/remarcmij/calculator-project-class8/blob/master/Rydberg%20constant.md) and the file `rydberg.test.js` in this repo.
+See also the [_Rydberg constant_](https://github.com/remarcmij/calculator-project-class8/blob/master/Rydberg%20constant.md) and the file `rydberg.test.js` in this repo.
 
 ## Standardized key codes
 
-We need to standardize the key codes that we emit from out keyboard components into the calculating engine (i.e. the `execute` function). The file `keyCodes.js` in this repo represents a proposed standard set of key codes as a series of string constants. Prefer the symbolic names for the constants over the actual string values wherever you can. 
+We need to standardize the key codes that we emit from our keyboard components into the calculating engine (i.e. the `execute` function). The file `keyCodes.js` in this repo represents a proposed standard set of key codes as a series of string constants. Please prefer the use of the symbolic names for the constants over the actual string values wherever you can. 
 
 
