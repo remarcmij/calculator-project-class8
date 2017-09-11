@@ -12,7 +12,7 @@ Optionally, the base HP-35 functionality may be enhanced with (portions of) the 
 
 ## Reverse Engineering the HP-35
 
-The best way to understand how the HP-35 works is to read the user manual and experiment with an HP Scientific Calculator emulator in [RPN](https://en.wikipedia.org/wiki/Reverse_Polish_notation) mode. Although there is no emulator for the orignal HP-35, there are free HP Prime Calculator apps for Android, iOS, Windows and Mac. The functionality of these apps is a superset of that of the orignal HP-35 but the base functionality is available and all can be configured to operate in RPN mode (the only mode available on the original HP-35).
+The best way to understand how the HP-35 works is to read the user manual and experiment with an HP Scientific Calculator emulator in [RPN](https://en.wikipedia.org/wiki/Reverse_Polish_notation) mode. Although there is no emulator for the original HP-35, there are free HP Prime Calculator apps for Android, iOS, Windows and Mac. The functionality of these apps is a superset of that of the original HP-35 but the base functionality is available and all can be configured to operate in RPN mode (the only mode available on the original HP-35).
 
 ### RPN stack
 

@@ -1,4 +1,4 @@
-# Standarized execute()
+# Standardized execute()
 
 In order to enable cross-project unit tests and programmability we need the various projects to standardize on the way the calculator functions can be invoked. This document proposes such a standard.
 
@@ -25,7 +25,7 @@ This standardized function takes your application state and a key code as parame
 const newState = execute(state, keyCode)
 ```
 
-You should `export` this function from which ever module it is defined. This function has the form of a `reducer`, i.e. a function that can readily be used by the `Arry#reduce()` method. This enables the execution of a series of keystrokes to form a simple 'program' to be run by your calculator, like in this example:
+You should `export` this function from which ever module it is defined. This function has the form of a `reducer`, i.e. a function that can readily be used by the `Array.reduce()` method. This enables the execution of a series of keystrokes to form a simple 'program' to be run by your calculator, like in this example:
 
 ```
 const keyCodes = [ ... ] // define a series of keystrokes here
@@ -36,6 +36,6 @@ See also the [_Rydberg constant_](https://github.com/remarcmij/calculator-projec
 
 ## Standardized key codes
 
-We need to standardize the key codes that we emit from our keyboard components into the calculating engine (i.e. the `execute` function). The file `keyCodes.js` in this repo represents a proposed standard set of key codes as a series of string constants. Please prefer the use of the symbolic names for the constants over the actual string values wherever you can. 
+We need to standardize the key codes that we emit from our keyboard components into the calculating engine (i.e. the `execute` function). The file `keyCodes.js` in this repo represents a proposed standard set of key codes as a series of string constants. Please prefer the use of the symbolic names for the constants over the actual string values wherever you can.
 
 
